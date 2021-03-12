@@ -1,5 +1,5 @@
 # Build the manager binary
-FROM golang:1.12.17 as builder
+FROM golang:1.16.2 as builder
 
 ENV GO111MODULE=on
 
